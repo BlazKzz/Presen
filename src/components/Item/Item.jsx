@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import useStore from "../Store/Store"; // Importación del Hook de zustand
+import useStore from "../../Store/Store"; // Importación del Hook de zustand
 
 export default function Item({ id, name, price, img }) {
     const addToCart = useStore((state) => state.addToCart); // Acá se utiliza el Hook para acceder a la función de addToCart

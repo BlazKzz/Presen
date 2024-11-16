@@ -1,4 +1,4 @@
-import Store from "../Store/Store"; // Se importa el hook de Zustand para acceder al estado del carrito
+import Store from "../../Store/Store"; // Se importa el hook de Zustand para acceder al estado del carrito
 
 export default function Cart() {
     const cart = Store((state) => state.cart); // Obtener estado del carrito
